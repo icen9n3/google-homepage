@@ -1,4 +1,4 @@
-Odin Project's recreation of Google Homepage
+Odin Project's recreation of the Google.com Homepage
 
 
 
