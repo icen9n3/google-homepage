@@ -1,12 +1,30 @@
 
+#top {
+}
 
+a:link, a:visited {
+text-decoration:none;
+padding: 10px;
+color:black;
+}
+
+a:hover {
+text-decoration: underline;
+color:black; }
+a:active { text-decoration:none;
+color:black;}
 .top-left {
 text-align:left;
+position: fixed;
 }
 
 .top-right {
 text-align:right;
+position: relative;
+top: 0px;
+}
 
+#bottom {
 }
 
 .b-left {
