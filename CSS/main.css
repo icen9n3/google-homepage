@@ -1,5 +1,10 @@
+body {
+font-size: 14px; }
 
-#top {
+
+#top { 
+padding-top:5px;
+display:block;
 }
 
 a:link, a:visited {
@@ -23,12 +28,24 @@ text-align:right;
 position: relative;
 top: 0px;
 }
+.glogo {
 
+margin:auto;
+}
+.center {
+display:block;
+margin-left:auto;
+margin-right:auto;
+width 50%;
+}
 #bottom {
+
 }
 
 .b-left {
 text-align:left;
+position:fixed;
+margin-left:15px;
 }
 
 .b-center {
@@ -36,5 +53,7 @@ text-align:center;
 }
 .b-right {
 text-align:right;
-}git add .
+bottom: 0px;
+margin-right: 15px;
+}
 
