@@ -11,6 +11,7 @@ padding: 20px;
 display:block;
 max-height 50vh;
 color:#222;
+
 }
 
 a:link, a:visited {
@@ -68,16 +69,14 @@ align-items:center;
 display:flex;
 border-radius: 25px;
 border: 2px solid #D3D3D3;
-justify-content:center;
 align-items:center;
-padding: -5px 90px -5px 90px;
 }
 .searchbar {
-min-width:50%;
-max-width:75%;
+
 height:20px;
 border:none;
-margin: 10px 45px 10px 45px;
+margin: 10x 45px 10px 45px;
+width: 20vw;
 }
 
 button {
@@ -95,6 +94,7 @@ color:#222;
 .clear {
 height:24px;
 opacity:.7;
+self-align:flex-start;
 }
 
 .searchicon {
