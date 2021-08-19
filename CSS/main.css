@@ -1,7 +1,11 @@
 body {
 font-size: 14px;
-height:100vh;
+height:95vh;
 }
+
+ /* Top of Page */ 
+
+
 #top { 
 padding: 20px;
 display:block;
@@ -29,15 +33,22 @@ flex-wrap:wrap;
 .top-left {
 position:absolute;
 top: 10px;
-left: 20px
+left: 20px;
 }
 
 .top-right {
-position: absolute;
+position:absolute;
 top: 10px;
 right: 15px;
 margin-right: 15px;
 }
+
+.tricon  {
+margin: 5px;
+}
+/* Center */
+
+
 .glogo {
 
 margin: 20px;
@@ -51,13 +62,15 @@ align-items:center;
 
 }
 
+
+/* search + buttons  */
 .search {
 display:flex;
 border-radius: 25px;
 border: 2px solid #D3D3D3;
 justify-content:center;
 align-items:center;
-padding: 0px 100px 0px 100px;
+padding: -5px 90px -5px 90px;
 }
 .searchbar {
 min-width:50%;
@@ -79,49 +92,63 @@ border:1px solid #D3D3D3;
 color:#222;
 }
 
-
-.bottom {
-position:relative
-bottom: 0;;
-opacity:.6;
-text-align:bottom;
-
-
-}
-
-.buffer {
-
-min-height:25vh;
-max-height:55vh;
-}
-
-.b-left {
-
-
-margin-left:15px;
-
-}
-
-.b-center {
-align-items:flex-start;
-
-
-}
-
 .clear {
 height:24px;
 opacity:.7;
-
 }
 
 .searchicon {
 height:24px;
 opacity:.7;
 }
+
+
+/*  buffer top */
+
+.buffert {
+
+min-height:25vh;
+max-height:55vh;
+}
+
+/*buffer bottom */
+
+.bufferb {
+min-height:0vh;
+max-height:55vh;
+}
+
+/*  Bottom of page   */
+.bottom {
+position:absolute;
+bottom: 5px;;
+opacity:.6;
+flex-direction:column;
+align-items:center;
+width:100vw;
+}
+
+
+.b-left {
+
+position:absolute;
+left:15px;
+bottom:5px;;
+}
+
+.b-center {
+height:75px;
+
+}
+
+
+
+
 .b-right {
 
-
-margin-right: 15px;
-align-items:flex-end;
+position:absolute;
+right:15px;
+bottom:5px;;
+self-align:flex-end;
 }
 
