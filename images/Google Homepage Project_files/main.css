@@ -125,7 +125,7 @@ max-height:55vh;
 /*buffer bottom */
 
 .bufferb {
-    display:block;
+    position:r;
 
 min-height: 20vh;
 max-height:55vh;
@@ -171,48 +171,22 @@ width:45%;
 }
 */
 
-.bottom {
-    position:absolute;
-    bottom:0;
-
 }
-    
-    
-    
-}
-.b-center { 
-
-padding-bottom:50px;
-    
-    
-      }
-
-
-.b-left { 
-    float:left;
-    padding-right:15%;
-  
- 
-    
-    
+.b-left { float:left;
+   
 }
 .b-right {
-  float:right;
-  padding-left:100px;
- 
+    float:right;
+}
 
-    
-   
 body {
     min-height:1000px;
     font-size: 14px;
 font-family: 'nato', sans-serif;
 height:95vh;
 max-height: 100vh;
+min-height:250px;
 
 }
 
-footer {
-  
-}
 

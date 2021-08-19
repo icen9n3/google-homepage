@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">	
+
+
+
+
+
+
+
+ 
+
+
+<title> Google Homepage Project </title>
+
+<link href="Google%20Homepage%20Project_files/reset.css" rel="stylesheet" type="text/css" media="all"><link href="Google%20Homepage%20Project_files/main.css" rel="stylesheet" type="text/css" media="all"><link rel="stylesheet" href="Google%20Homepage%20Project_files/icon.css"><link rel="preconnect" href="https://fonts.googleapis.com/"><link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin=""><link rel="preconnect" href="https://fonts.googleapis.com/"><link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin=""><link href="Google%20Homepage%20Project_files/css2.css" rel="stylesheet"><link rel="shortcut icon" type="image/x-icon" href="http://127.0.0.1:5500/images/google.ico"></head>
+<body>
+<!-- Top of Page -->
+<div id="top">
+<div class="top-left">
+<a href="https://about.google/?fg=1&amp;utm_source=google-US&amp;utm_medium=referral&amp;utm_campaign=hp-header">About</a>
+
+<a href="https://store.google.com/US/?utm_source=hp_header&amp;utm_medium=google_ooo&amp;utm_campaign=GS100042&amp;hl=en-US">
+Store</a>
+ </div>
+<!-- Top right -->
+<div class="top-right">
+<a href="https://www.google.com/gmail/about/"> Gmail</a>
+<a href="https://www.google.com/imghp?hl=en&amp;ogbl" style="top: 0%;">Images</a>
+<!-- Icons -->
+</div>
+<div class="tricons">
+<img src="Google%20Homepage%20Project_files/apps.png" alt="Apps" style="position:static; margin-top: 10px;"> 
+<img src="Google%20Homepage%20Project_files/account.png" alt="Log in">
+ </div>
+
+ 
+
+<!-- Buffer -->
+<div class="buffert"> </div>
+
+<!-- Logo -->
+<div class="center">
+<div class="glogo">
+<img src="Google%20Homepage%20Project_files/googlelogo.png" alt="google logo">
+</div>
+
+<!-- Search Bar  -->
+<form>
+<div class="search">
+<img src="Google%20Homepage%20Project_files/searchicon.png" alt="Search" class="searchicon" style="margin: 0px 100px 0px 0px;">
+<div> <input type="text" class="searchbar"> </div>
+<img src="Google%20Homepage%20Project_files/mic.png" alt="Microphone" class="clear" style="margin: 5px 0px 0px 100px;">
+</div>
+<!-- buttons -->
+<div style="text-align:center;">
+<button type="button">Google Search</button>
+<button type="button">I'm Feeling Lucky</button>
+</div>
+</form>
+</div>
+
+<!-- buffer -->
+<div class="bufferb"> </div>
+
+<!-- Bottom of Page -->
+<div class="bottom container">
+
+<div class="b-center">
+<a href="https://sustainability.google/commitments/?utm_source=googlehpfooter&amp;utm_medium=housepromos&amp;utm_campaign=bottom-footer&amp;utm_content=">
+<img src="Google%20Homepage%20Project_files/leaf.png" style="height:14px;opacity:1.0"> Carbon neutral since 2007</a>
+ </div>
+<footer style="overflow-wrap: normal;">
+<div class="b-left">
+<a href="https://ads.google.com/intl/en_us/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&amp;utm_source=google.com&amp;utm_medium=referral&amp;utm_campaign=google_hpafooter&amp;fg=1#!/" ;=""> Advertising</a> 
+<a href="https://smallbusiness.withgoogle.com/?subid=us-en-et-g-awa-a-g_hpbfoot1_1!o2&amp;utm_source=google&amp;utm_medium=ep&amp;utm_campaign=google_hpbfooter&amp;utm_content=google_hpbfooter&amp;gmbsrc=us-en_US-et-gs-z-gmb-s-z-u~sb-g4sb_srvcs-u#!/"> Business</a>
+<a href="https://www.google.com/search/howsearchworks/?fg=1"> How Search Works</a>
+ </div>
+<div class="b-right">
+<a href="https://policies.google.com/privacy?hl=en&amp;fg=1"> Privacy</a>
+<a href="https://policies.google.com/terms?hl=en&amp;fg=1"> Terms</a>
+ Settings </div>
+</footer></div>
+
+
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</div></body></html>
