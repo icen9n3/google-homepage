@@ -54,7 +54,7 @@ margin-right: 0px;
 
 /* Center */
 .glogo {
-margin: 20px;
+margin-bottom: 20px;
 background-color: white;
 }
 .center {
@@ -76,7 +76,7 @@ height:30px;
 border:none;
 margin:auto;
 margin: 5px 0px 5px 0px;
-width:55vw;
+width:45vw;
 outline:none;
 position: relative;
 right:100px;
